@@ -14,17 +14,17 @@
 - [x] Hero section with compelling headline and call-to-action
 - [x] At least 3 main content sections
 - [x] Footer with contact information
-- [X] CSS Box Model implementation (margin, padding, borders)
-- [X] Flexbox layout for at least one major component
-- [X] CSS Grid layout for at least one section
-- [X] Color scheme using multiple formats (hex, RGB, named)
-- [X] Typography styling (font-family, font-size, font-weight)
+- [x] CSS Box Model implementation (margin, padding, borders)
+- [x] Flexbox layout for at least one major component
+- [x] CSS Grid layout for at least one section
+- [x] Color scheme using multiple formats (hex, RGB, named)
+- [x] Typography styling (font-family, font-size, font-weight)
 - [x] Proper heading hierarchy (h1, h2, h3)
 - [x] Images with descriptive alt text
 - [x] Working internal navigation links
-- [ ] Multiple responsive breakpoints (mobile, tablet, desktop) (no overlapping or hidden elements on tablet, mobile, desktop)
-- [X] Hover effects on interactive elements
-- [X] HTML and CSS validation passing
+- [x] Multiple responsive breakpoints (mobile, tablet, desktop) (no overlapping or hidden elements on tablet, mobile, desktop)
+- [x] Hover effects on interactive elements
+- [x] HTML and CSS validation passing
 
 ### **Could Have (Bonus Points):**
 
