@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdulrahman Al-Nachar | Software developer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Abdulrahman Al-Nachar | Software developer</title>
+  </head>
+  <body>
+    <!-- TODO: Add header with your name, professional title, and navigation -->
+    <header class="my-header">
+      <div id="logo-wrapper">
+        <h1 id="logo">Abdul Al-Nachar</h1>
+        <!-- <p id="logo-description">Transitioning into Software development.</p> -->
+      </div>
+
+      <nav>
+        <ul id="navigation">
+          <!-- Navigation should link to: #about, #skills, #contact -->
+          <li><a class="nav-options" href="#about">About</a></li>
+          <li><a class="nav-options" href="#skills">Skills</a></li>
+          <li><a class="nav-options" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- TODO: Add main element -->
+    <main>
+      <!-- TODO: Add About section with id="about" -->
+      <section id="about">
+        <!-- Include: h2 "About Me", professional photo with alt text, 2-3 paragraphs about yourself -->
+
+        <div class="about-right">
+          <img
+            src="./assets/images/Placeholder-professional-pic.png"
+            alt="Professional photo"
+          />
+          <p id="img-text">
+            this is a placeholder image this is not me will update later
+          </p>
+        </div>
+
+        <div class="about-left">
+          <h2 id="about-me">About Me</h2>
+          <br />
+          <h3 id="about-h3">
+            Learning, Building, and Growing in Software Development
+          </h3>
+          <p id="about-p">
+            I’m Abdul Al-Nachar, a senior CS student transitioning into software
+            development.<br />
+            I’ve built projects in web apps and machine learning,<br />
+            and I’m excited to bring my skills into a professional role.
+          </p>
+
+          <a
+            class="about-buttons"
+            id="about-button-1"
+            href="https://github.com/nachar99"
+            target="_blank"
+            >View My Work</a
+          >
+          <a class="about-buttons" id="about-button-2" href="#contact"
+            >Contact Me</a
+          >
+        </div>
+      </section>
+
+      <!-- TODO: Add Skills section with id="skills" -->
+      <section id="skills" class="skills-grid">
+        <!-- Include: h2 "Skills & Experience", multiple h3 categories with organized lists -->
+        <h2 id="skills-header">Skills & Experience</h2>
+        <div id="left-side">
+          <h3 class="sides-h3">Software development</h3>
+          <ul id="software-skills">
+            <li class="skills">
+              Front-end development<br />(HTML, CSS, JavaScript, Git commands)
+            </li>
+            <li class="skills">Python</li>
+            <li class="skills">C++</li>
+            <li class="skills">Java</li>
+          </ul>
+        </div>
+
+        <div id="center" class="cards">
+          <h3 class="sides-h3">Professional Skills</h3>
+          <ul id="professional-skills">
+            <li class="skills">Sales <br />(from my past work experience)</li>
+            <li class="skills">Working in a team</li>
+            <li class="skills">Problem solving and critical thinking</li>
+            <li class="skills">Attention to detail</li>
+            <li class="skills">Building front-end websites</li>
+          </ul>
+        </div>
+
+        <div id="right-side">
+          <h3 class="sides-h3">Currently learning</h3>
+          <ul id="currently-learning">
+            <li class="skills">Full stack development</li>
+            <li class="skills">Building full stack applications</li>
+            <li class="skills">Completing my Bachelor's CS degree</li>
+          </ul>
+        </div>
+      </section>
+      <!-- TODO: Add Contact section with id="contact" -->
+      <section id="contact">
+        <!-- Include: h2 "Let's Connect", social media links (email, LinkedIn, GitHub), and message form -->
+        <div>
+          <h2 id="row-one-h2">Let's Connect</h2>
+          <ul id="footer-row-one">
+            <li class="label">
+              Email:
+              <a class="label-anchor" href="alnacharcs99@gmail.com"
+                >alnacharcs99@gmail.com</a
+              >
+            </li>
+            <li class="label">
+              LinkedIn:
+              <a
+                class="label-anchor"
+                href="https://www.linkedin.com/in/alnachar1999/"
+                target="_blank"
+                >www.linkedin.com/in/alnachar1999/</a
+              >
+            </li>
+            <li class="label">
+              GitHub:
+              <a
+                class="label-anchor"
+                href="https://github.com/nachar99"
+                target="_blank"
+                >github.com/nachar99</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="footer-row-two">
+          <h3 id="row-two-h2">Send me a message</h3>
+          <!-- Form should have: name, email, message fields and submit button -->
+          <form method="post" id="form">
+            <label class="form-labels" for="sender-name">Your Name:</label>
+            <input type="text" id="sender-name" name="name" required />
+            <label class="form-labels" for="sender-email">Your Email:</label>
+            <input type="email" id="sender-email" name="email" required />
+            <label class="form-labels" for="sender-message">Message:</label>
+            <textarea
+              id="sender-message"
+              name="message"
+              rows="4"
+              placeholder="I'd love to hear from you..."
+            ></textarea>
+            <button type="submit" id="submit-btn">Send Message</button>
+          </form>
+          <footer id="copyright">
+            <p>© 2025 Abdulrahman Al-Nachar</p>
+          </footer>
+        </div>
+      </section>
+      <!-- TODO: Close main element -->
+    </main>
+    <!-- TODO: Add footer with copyright and personal tagline -->
+  </body>
+</html>
