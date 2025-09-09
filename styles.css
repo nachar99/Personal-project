@@ -426,6 +426,15 @@ ul {
     max-width: 48ch;
   }
 
+  #about-me {
+    justify-self: center;
+  }
+
+  .about-buttons {
+    margin-left: 2.5rem;
+    margin-right: -1.5rem;
+  }
+
   .skills-grid {
     grid-template-columns: 1fr;
     grid-template-areas:
